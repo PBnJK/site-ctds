@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 Ideias:
 	- Site de teoria da conspiração(!!!);
 	- Informações sobre diferentes teorias;
+=======
+Ideias:
+	- Site de teoria da conspiração(!!!);
+	- Informações sobre diferentes teorias;
+>>>>>>> master
 	- Formúlario par receber atualizações sobre as teorias no e-mail.
