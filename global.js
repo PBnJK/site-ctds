@@ -8,7 +8,35 @@ function getHeader() {
 
 	HEADER.innerHTML = `
 		<header id="global-header">
-			<img src="assets/img_logo.png"/>
+			<!-- Logo -->
+			<a href="index.html">
+			<button id="header-logo" alt="Teóricos Anônimos" border="0"><img src="assets/img_logo.png"/></button>
+			</a>
+
+			<!-- Botão 1 -->
+			<a href="ovni.html">
+			<button class="header-button">Alienígenas (OVNIs)</button>
+			</a>
+
+			<!-- Botão 2 -->
+			<a href="deltarune.com">
+			<button class="header-button">Criptídeos</button>
+			</a>
+
+			<!-- Botão 3 -->
+			<a href="deltarune.com">
+			<button class="header-button">Teorias do Governo</button>
+			</a>
+
+			<!-- Botão 4 -->
+			<a href="deltarune.com">
+			<button class="header-button">???</button>
+			</a>
+
+			<!-- Botão 5 -->
+			<a href="deltarune.com">
+			<button class="header-button">Sobre</button>
+			</a>
 		</header>
 	`;
 
@@ -33,6 +61,8 @@ function getFooter() {
 
 			<input type="email" id="newsletter-input-box" placeholder="eu@exemplo.com">
 			</input>
+
+			<input type="submit" id="newsletter-input-submit"/>
 
 			<p><i>&copy; 2023 Teóricos Anônimos</i></p>
 		</footer>
