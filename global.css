@@ -1,3 +1,7 @@
+body, html {
+	font-family: "CMUConcreteRoman", serif;
+}
+
 /**** CABEÇALHO ****/
 #global-header {
 	display: grid;
@@ -10,20 +14,13 @@
 
 	column-gap: 4px;
 
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-
 	width: 100%;
-	height: 40px;
+	height: 60px;
 
 	background-color: rgb(99, 105, 113);
 }
 
 #header-logo {
-	width: 0;
-
 	border: none;
 	cursor: pointer;
 	appearance: none;
@@ -31,8 +28,6 @@
 }
 
 .header-button {
-	font-family: "CMUConcreteRoman", serif;
-
 	min-width: 100px;
 	height: 40px;
 
@@ -47,34 +42,44 @@
 	background-color: rgb(129, 136, 144);
 }
 
+/**** CORPO  ****/
+.text-body {
+	margin: 0 auto;
+
+	background-color: white;
+	
+	width: 92%;
+
+	margin-left: 48px;
+	margin-right: 48px;
+}
+
+.text-body p{
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.img-container {
+	text-align: center;
+}
+
 /**** RODAPÉ ****/
 #global-footer {
-	/* Posicionar em baixo */
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-
 	width: 100%;
 	
 	text-align: center;
 
 	background-color: rgb(99, 105, 113);
-
-	font-family: "CMUConcreteRoman", serif;
 }
 
 /* Caixa de digitação de email */
 #newsletter-input-box {
-	font-family: "CMUConcreteRoman", serif;
-
 	width: 80%;
 	height: 20px;
 }
 
 /* Caixa de envio */
 #newsletter-input-submit {
-	font-family: "CMUConcreteRoman", serif;
 	height: 24px;
 }
 
